@@ -1,3 +1,4 @@
+// --------------- October 24 - 2022 Monday ---------------
 // 1) we have an array with some indexes
 var lonely = [4, 7, 9, 3, 9, 4, 7, 19];
 
