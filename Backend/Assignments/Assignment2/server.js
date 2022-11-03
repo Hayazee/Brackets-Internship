@@ -34,15 +34,16 @@ app.get("/users", (req, res) => {
 });
 
 // getting users by id route
-app.get("/users/:userId", (req, res) => {
-  const { userId } = req.params;
+app.get("/users/", (req, res) => {
+  console.log(req.query.id);
+  const userId = req.query.id;
   const user = getUser(userId);
   console.log(userId, user);
   res.send(user);
 });
 
 // add a new user
-app.post("/users/", (req, res) => {
+app.post("/users", (req, res) => {
   const user = req.body;
   const addingUser = addUser(user);
   console.log(addingUser);
@@ -50,8 +51,9 @@ app.post("/users/", (req, res) => {
 });
 
 // delete user by id
-app.delete("/users/:userId", (req, res) => {
-  const { userId } = req.params;
+app.delete("/users/userId", (req, res) => {
+  const userId = req.params;
+  console.log(userId);
   const user = deleteUser(userId);
   console.log(user);
   res.send(user);

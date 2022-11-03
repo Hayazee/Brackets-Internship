@@ -1,1 +1,4 @@
-[{ "id": "3", "name": "Duraj", "age": "12", "role": "Internee" }]
+[
+  { "id": "3", "name": "Duraj", "age": "12", "role": "Internee" },
+  { "id": "2", "name": "Duraj", "age": "11", "role": "Internee" }
+]
