@@ -1,9 +1,10 @@
 // --------------- October 31 - 2022 Monday ---------------
+// declaring variables
 var number = 9;
 var symbol = "";
 
 for (let row = number / 9; row < number; row += 2) {
-  // start spaces
+  // starting spaces
   for (let col = 0; col < number - row; col += 2) {
     symbol += " ";
   }
@@ -19,6 +20,7 @@ for (let row = number / 9; row < number; row += 2) {
   for (let col = 0; col < row + 1; col++) {
     symbol += "*";
   }
+  // after a row/new row
   symbol += "\n";
 }
 
