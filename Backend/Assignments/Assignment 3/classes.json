@@ -1,0 +1,5 @@
+[
+  { "id": "3", "name": "King", "age": "12", "role": "King" },
+  { "id": "2", "name": "something", "age": "11", "role": "Internee" },
+  { "name": "haya", "age": "23" }
+]
