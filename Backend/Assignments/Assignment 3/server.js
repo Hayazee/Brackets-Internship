@@ -54,22 +54,6 @@ app.use(teacherRouter);
 // editing and updating a teacher
 app.use(teacherRouter);
 
-////////////////////// ~~~~~~~~~~~ Classes ~~~~~~~~~~~~~~~~~ //////////////////////
-// class route
-app.use(classesRouter);
-
-// getting class by id route
-app.use(classesRouter);
-
-// add a new class
-app.use(classesRouter);
-
-// delete class by id
-app.use(classesRouter);
-
-// editing and updating a class
-app.use(classesRouter);
-
 server.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
 });

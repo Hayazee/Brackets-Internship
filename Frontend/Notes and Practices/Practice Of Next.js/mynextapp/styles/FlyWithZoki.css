@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Main Section Background Image  */
+.MainSectionBg {
+  background-image: url("../images/Home\ Page//MainSectionBg.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+  padding-left: 6% !important;
+  padding-right: 6% !important;
+  align-items: center !important;
+}
+
+/* Tabs Background Images  */
+.FlightsTabBg {
+  background-image: url("../images/Home\ Page/FlightsTabBg.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.HotelsTabBg {
+  background-image: url("../images/Home\ Page/HotelsTabBg.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.CarHireTabBg {
+  background-image: url("../images/Home\ Page/CarHireTabBg.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.TabsPosition {
+  left: 12% !important;
+  bottom: -30% !important;
+}
+
+/* Packages Section Background Image  */
+.PackagesSectionBg {
+  background-image: url("../images/Packages/PackagesSectionBg.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  align-items: center !important;
+}
+
+/* Booking Trip Section Background Image */
+.BookingTripSectionBg {
+  background-image: url("../images/Adventure\ and\ Activity\ and\ Booking\ Trip/BookingTripSectionBg.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+  align-items: center !important;
+}
+
+/* Perfect Trip Section Background Images */
+.JeddahPerfectTripBg {
+  background-image: url("../images/Perfect\ Trip/JeddahPerfectTrip.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.LahorePerfectTripBg {
+  background-image: url("../images/Perfect\ Trip/LahorePerfectTrip.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.KarachiPerfectTripBg {
+  background-image: url("../images/Perfect\ Trip/KarachiPerfectTrip.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.NewYorkPerfectTripBg {
+  background-image: url("../images/Perfect\ Trip/NewYorkPerfectTrip.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.IstanbulPerfectTripBg {
+  background-image: url("../images/Perfect\ Trip/IstanbulPerfectTrip.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.MilanPerfectTripBg {
+  background-image: url("../images/Perfect\ Trip/MilanPerfectTrip.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.DubaiPerfectTripBg {
+  background-image: url("../images/Perfect\ Trip/DubaiPerfectTrip.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.EgyptPerfectTripBg {
+  background-image: url("../images/Perfect\ Trip/EgyptPerfectTrip.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.JapanPerfectTripBg {
+  background-image: url("../images/Perfect\ Trip/JapanPerfectTrip.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+/* NewsLetter and Testimonials Background images  */
+.NewsLetterBg {
+  background-image: url("../images/NewsLetter\ and\ Testimonials/NewsLetterBg.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+  align-items: center !important;
+}
+
+/* Tab animation */
+.indicator {
+  transition: left 0.4s;
+}
+
+/* custom styles  */
+.mx-auto-components {
+  margin-right: 5% !important;
+  margin-left: 5% !important;
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+}
+
+Image,
+img {
+  width: auto !important;
+  height: auto !important;
+}
+
+input {
+  outline: none !important;
+}
